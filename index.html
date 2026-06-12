@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel García Lorenzo · Web Developer</title>
+    <meta name="description" content="Portfolio premium de Gabriel García Lorenzo, desarrollador web profesional especializado en experiencias digitales modernas, negocio y usuario.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR PREMIUM STICKY -->
+    <nav class="navbar" id="navbar" aria-label="Navegación principal">
+        <div class="navbar__container">
+            <a href="#contacto" class="navbar__logo" aria-label="Inicio">  
+                    <rect x="6" y="6" width="24" height="24" rx="7" fill="#2563EB" fill-opacity="0.12"/>
+                    <rect x="12" y="12" width="12" height="12" rx="4" fill="#2563EB"/>
+                </svg>
+            </a>
+            <ul class="navbar__menu">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#recomendacion">Recomendación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Barra de progreso de navegación -->
+    <div id="progress-bar-container" style="position: fixed; top: 0; left: 0; width: 100vw; height: 3px; z-index: 9999; background: transparent;">
+        <div id="progress-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #6366f1 0%, #2563eb 100%); border-radius: 0 8px 8px 0; transition: width 0.2s cubic-bezier(.4,0,.2,1);"></div>
+    </div>
+
+    <!-- HERO PREMIUM -->
+    <header class="hero" id="hero">
+        <div class="hero__content">
+            <div class="hero__info">
+                <h1 class="hero__title">Gabriel García Lorenzo</h1>
+                <h2 class="hero__subtitle">Front-End Developer & WordPress Specialist</h2>
+                <p class="hero__tags">Diseño y desarrollo experiencias web modernas, optimizadas para negocio, SEO y experiencia usuario.</p>
+                <nav class="hero__actions">
+                    <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+                    <a href="/assets/CV_Gabriel_Garcia_Lorenzo.pdf" class="btn" download>Descargar CV</a>
+                    <a href="https://www.linkedin.com/in/gabriel-garc%C3%ADa-lorenzo/" class="btn btn--icon" target="_blank" rel="noopener" aria-label="LinkedIn"><span aria-hidden="true">Linkedin</span></a>
+                    <a href="https://github.com/Gabriel10787" class="btn btn--icon" target="_blank" rel="noopener" aria-label="GitHub"><span aria-hidden="true">GitHub</span></a>
+                </nav>
+            </div>
+            <div class="hero__image">
+                <img src="img/Foto.jpg" alt="Gabriel García Lorenzo, desarrollador web" loading="eager">
+            </div>
+        </div>
+    </header>
+
+    <!-- Temporizador de fecha premium, ahora más abajo -->
+    <div id="fecha-timer" style="position: fixed; top: 5.5rem; right: 3.2rem; z-index: 100; font-family: 'Inter', Arial, sans-serif; font-size: 1.1rem; color: #6366f1; background: #fff; border-radius: 0.7em; box-shadow: 0 2px 12px 0 rgba(37,99,235,0.07); padding: 0.6em 1.3em; font-weight: 500; letter-spacing: 0.01em;"></div>
+
+    <!-- SECCIÓN CREDIBILIDAD -->
+    <section class="credibilidad" id="credibilidad">
+        <div class="credibilidad__band premium-band">
+            <div class="credibilidad__item premium-item">+13 años liderando equipos</div>
+            <div class="credibilidad__item premium-item">Experiencia real con clientes</div>
+            <div class="credibilidad__item premium-item">Proyectos web publicados</div>
+            <div class="credibilidad__item premium-item">Carta de recomendación profesional</div>
+            <div class="credibilidad__item premium-item">Trabajo remoto</div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="sobre-mi__container">
+            <div class="sobre-mi__info">
+                <h2>Sobre mí</h2>
+                <p> Técnico Superior en Desarrollo de Aplicaciones Web con experiencia práctica en proyectos reales de desarrollo web, SEO y soporte técnico. Durante mis prácticas en Sagatech trabajé directamente con clientes, participando en el desarrollo y seguimiento de proyectos digitales. Mi trayectoria profesional previa liderando equipos durante más de 13 años me ha permitido desarrollar habilidades de comunicación, organización y resolución de problemas que hoy complemento con mi perfil tecnológico.</p>
+            </div>
+            <div class="sobre-mi__visual">
+                <img src="img/Gabriel trabajando.png" alt="Gabriel trabajando" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section class="experiencia" id="experiencia">
+        <h2>Experiencia</h2>
+        <div class="timeline premium-timeline">
+            <div class="timeline__item fade-in-timeline">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                    <div class="timeline__empresa">Sagatech Servicios Informáticos</div>
+                    <div class="timeline__rol">Web Developer Intern</div>
+                    <ul class="timeline__lista">
+                        <li>Desarrollo web</li>
+                        <li>WordPress</li>
+                        <li>SEO</li>
+                        <li>Atención directa a clientes</li>
+                        <li>Seguimiento de proyectos</li>
+                        <li>Resolución de incidencias</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline__item fade-in-timeline">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                    <div class="timeline__empresa">Sprinter Plasencia</div>
+                    <div class="timeline__rol">Responsable de Turno</div>
+                    <ul class="timeline__lista">
+                        <li>Coordinación de equipos</li>
+                        <li>Organización operativa</li>
+                        <li>Gestión de incidencias</li>
+                        <li>Atención al cliente</li>
+                        <li>Liderazgo durante más de 13 años</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline__item fade-in-timeline">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                    <div class="timeline__empresa">Santalucía Seguros</div>
+                    <div class="timeline__rol">Agente Comercial</div>
+                    <ul class="timeline__lista">
+                        <li>Comunicación</li>
+                        <li>Captación de clientes</li>
+                        <li>Venta consultiva</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STACK TECNOLÓGICO -->
+    <section class="stack stack-premium" id="stack">
+        <h2>Stack Tecnológico</h2>
+        <div class="stack-premium__container">
+            <div class="stack-premium__grupo">
+                <h3>Frontend</h3>
+                <div class="stack-premium__badges">
+                    <span class="badge badge--premium">HTML5</span>
+                    <span class="badge badge--premium">CSS3</span>
+                    <span class="badge badge--premium">JavaScript</span>
+                </div>
+            </div>
+            <div class="stack-premium__grupo">
+                <h3>CMS</h3>
+                <div class="stack-premium__badges">
+                    <span class="badge badge--premium">WordPress</span>
+                </div>
+            </div>
+            <div class="stack-premium__grupo">
+                <h3>Backend</h3>
+                <div class="stack-premium__badges">
+                    <span class="badge badge--premium">PHP</span>
+                    <span class="badge badge--premium">SQL</span>
+                </div>
+            </div>
+            <div class="stack-premium__grupo">
+                <h3>Herramientas</h3>
+                <div class="stack-premium__badges">
+                    <span class="badge badge--premium">Git</span>
+                    <span class="badge badge--premium">GitHub</span>
+                    <span class="badge badge--premium">Visual Studio Code</span>
+                </div>
+            </div>
+            <div class="stack-premium__grupo">
+                <h3>SEO</h3>
+                <div class="stack-premium__badges">
+                    <span class="badge badge--premium">SEO Técnico</span>
+                    <span class="badge badge--premium">Optimización Web</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS DESTACADOS -->
+    <section class="proyectos proyectos-premium" id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <div class="slider-premium" aria-label="Proyectos destacados">
+            <div class="slider-premium__track">
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/xplorevanlife.jpg" alt="Xplore Van Life" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Xplore Van Life</h3>
+                        <p>Plataforma orientada a la comunidad vanlife, con información sobre rutas, áreas de pernocta, consejos prácticos y experiencias de viaje reales del canal de YouTube XploreVanLife.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">WordPress</span>
+                            <span class="badge badge--premium">SEO</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://www.xplorevanlife.com" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Monteblanco.png" alt="Monteblanco" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Monteblanco</h3>
+                        <p>Tienda online desarrollada para Monteblanco, enfocada en la venta de productos premium del sector retail, con una experiencia de compra optimizada y orientada a la conversión.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">WordPress</span>
+                            <span class="badge badge--premium">SEO</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://www.monteblancostudio.es" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Robinhaus.png" alt="Robinhaus" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Robinhaus</h3>
+                        <p>Sitio web corporativo para una inmobiliaria especializada en la costa de Huelva, con catálogo de propiedades, información detallada y herramientas para facilitar el contacto con potenciales clientes.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">WordPress</span>
+                            <span class="badge badge--premium">SEO</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://www.robinhaus.es" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Sorolla.webp" alt="Sorolla" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Sorolla</h3>
+                        <p>Ecommerce para una galería de arte, diseñado para la exposición y comercialización de obras artísticas, combinando catálogo digital y proceso de compra online.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">WordPress</span>
+                            <span class="badge badge--premium">SEO</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://www.sorolla.com" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Calendario Dolores de Cabeza.png" alt="Calendario Dolores de Cabeza" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Calendario Dolores de Cabeza</h3>
+                        <p>Aplicación web progresiva para registrar y analizar episodios de dolor de cabeza, con estadísticas visuales, exportación de datos y funcionamiento offline mediante almacenamiento local.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">HTML5</span>
+                            <span class="badge badge--premium">CSS3</span>
+                            <span class="badge badge--premium">JavaScript</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://gabriel10787.github.io/Calendario-Dolores-de-Cabeza/" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                            <a href="https://github.com/Gabriel10787/Calendario-Dolores-de-Cabeza" class="btn" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Liga Escolar de Futbol.png" alt="Clasificación Liga Fútbol Escolar" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Clasificación Liga Fútbol Escolar</h3>
+                        <p>Herramienta web para gestionar competiciones escolares de fútbol, con seguimiento de resultados, clasificaciones automáticas y estadísticas, funcionando incluso sin conexión a internet.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">HTML5</span>
+                            <span class="badge badge--premium">CSS3</span>
+                            <span class="badge badge--premium">JavaScript</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://gabriel10787.github.io/Clasificacion-liga-futbol-escolar/" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                            <a href="https://github.com/Gabriel10787/Clasificacion-liga-futbol-escolar" class="btn" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Turismo Extremadura.png" alt="Turismo Extremadura" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Turismo Extremadura</h3>
+                        <p>Portal turístico interactivo que reúne rutas, monumentos, actividades y puntos de interés para descubrir los principales atractivos de Extremadura.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">HTML5</span>
+                            <span class="badge badge--premium">CSS3</span>
+                            <span class="badge badge--premium">JavaScript</span>
+                            <span class="badge badge--premium">SEO</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://gabriel10787.github.io/web-turismo-extremadura/" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                            <a href="https://github.com/Gabriel10787/web-turismo-extremadura" class="btn" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/test daw.png" alt="Test DAW" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Test DAW</h3>
+                        <p>Plataforma educativa con cuestionarios interactivos para estudiantes de Desarrollo de Aplicaciones Web, diseñada para reforzar conocimientos y preparar exámenes.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">HTML5</span>
+                            <span class="badge badge--premium">CSS3</span>
+                            <span class="badge badge--premium">JavaScript</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://gabriel10787.github.io/testDaw2026/" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                            <a href="https://github.com/Gabriel10787/testDaw2026" class="btn" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Guia de viaje.png" alt="Guía de viaje" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Guía de viaje</h3>
+                        <p>Guía de viaje digital con información de destinos, planificación de rutas, recomendaciones personalizadas, cálculo de gastos y obtención de datos mediante integración con APIs externas.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">HTML5</span>
+                            <span class="badge badge--premium">CSS3</span>
+                            <span class="badge badge--premium">JavaScript</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://gabriel10787.github.io/Riano/" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                            <a href="https://github.com/Gabriel10787/Riano" class="btn" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slider-premium__slide">
+                    <div class="slider-premium__img">
+                        <img src="img/Pescadores.png" alt="Unión de Pescadores" loading="lazy">
+                    </div>
+                    <div class="slider-premium__info">
+                        <h3>Unión de Pescadores</h3>
+                        <p>Aplicación web para la gestión de competiciones de pesca, con clasificación automática individual y por equipos, generación de rankings imprimibles y funcionamiento offline mediante almacenamiento local.</p>
+                        <div class="slider-premium__tecnologias">
+                            <span class="badge badge--premium">HTML5</span>
+                            <span class="badge badge--premium">CSS3</span>
+                            <span class="badge badge--premium">JavaScript</span>
+                        </div>
+                        <div class="slider-premium__acciones">
+                            <a href="https://gabriel10787.github.io/union-pescadores-app/" class="btn btn--primary" target="_blank" rel="noopener">Visítala</a>
+                            <a href="https://github.com/Gabriel10787/union-pescadores-app" class="btn" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="slider-premium__controls" aria-label="Controles del slider">
+                <button class="slider-premium__prev" aria-label="Proyecto anterior">&#8592;</button>
+                <button class="slider-premium__next" aria-label="Proyecto siguiente">&#8594;</button>
+            </div>
+
+            <div class="slider-premium__thumbnails" aria-label="Miniaturas de proyectos">
+                <button class="slider-premium__thumbnail" data-index="0" aria-label="Xplore Van Life">
+                    <img src="img/xplorevanlife.jpg" alt="Xplore Van Life">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="1" aria-label="monteblancostudio">
+                    <img src="img/Monteblanco.png" alt="Monteblanco Studio">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="2" aria-label="Robinhaus">
+                    <img src="img/Robinhaus.png" alt="Robinhaus">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="3" aria-label="Sorolla">
+                    <img src="img/Sorolla.webp" alt="Sorolla">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="4" aria-label="Calendario Dolores de Cabeza">
+                    <img src="img/Calendario Dolores de Cabeza.png" alt="Calendario Dolores de Cabeza">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="5" aria-label="Clasificación Liga Fútbol Escolar">
+                    <img src="img/Liga Escolar de Futbol.png" alt="Clasificación Liga Fútbol Escolar">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="6" aria-label="Turismo Extremadura">
+                    <img src="img/Turismo Extremadura.png" alt="Turismo Extremadura">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="7" aria-label="Test DAW">
+                    <img src="img/test daw.png" alt="Test DAW">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="8" aria-label="Guía de viaje">
+                    <img src="img/Guia de viaje.png" alt="Guía de viaje">
+                </button>
+                <button class="slider-premium__thumbnail" data-index="9" aria-label="Unión de Pescadores">
+                    <img src="img/Pescadores.png" alt="Unión de Pescadores">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECOMENDACIÓN PROFESIONAL -->
+    <section class="recomendacion" id="recomendacion">
+        <div class="recomendacion__testimonial">
+            <blockquote>
+                “Gabriel demostró una gran capacidad de aprendizaje, adaptación y compromiso.”
+            </blockquote>
+            <div class="recomendacion__autor">
+                <span>Adrián Martín Domínguez</span> · <span>Gerente</span> · <span>Sagatech Servicios Informáticos</span>
+            </div>
+            <a href="/assets/Carta_Adrian_Martin_Sagatech.pdf" class="btn" download>Descargar Carta de Recomendación</a>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <form
+        id="contacto-form"
+        class="contacto__form"
+        action="https://formspree.io/f/mgobnerz"
+        method="POST"
+        >
+
+        <div class="form__group">
+            <label for="nombre">Nombre</label>
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+                maxlength="50">
+        </div>
+
+        <div class="form__group">
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                maxlength="80">
+        </div>
+
+        <div class="form__group">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                required
+                maxlength="500"></textarea>
+        </div>
+
+        <input type="hidden" id="form-next" name="_next" value="https://gabriel10787.github.io/Portafolio/gracias.html">
+
+        <button type="submit" class="btn btn--primary">
+            Enviar mensaje
+        </button>
+
+        </form>
+        <div class="contacto__acciones">
+            <a href="https://www.linkedin.com/in/gabrielgarcialorenzo" class="btn btn--icon" target="_blank" rel="noopener" aria-label="LinkedIn"><span aria-hidden="true">in</span></a>
+            <a href="https://github.com/gabrielgarcialorenzo" class="btn btn--icon" target="_blank" rel="noopener" aria-label="GitHub"><span aria-hidden="true">GH</span></a>
+            <a href="mailto:gabrielgarcialorenzo@gmail.com" class="btn btn--icon" aria-label="Email"><span aria-hidden="true">@</span></a>
+        </div>
+    </section>
+
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Volver al inicio" title="Volver arriba">
+        <span aria-hidden="true">&#8593;</span>
+    </button>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <span>&copy; 2026 Gabriel García Lorenzo. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+        <script>
+            // Formspree redirige de forma fiable cuando _next es URL absoluta.
+            document.addEventListener('DOMContentLoaded', function () {
+                const nextField = document.getElementById('form-next');
+                if (!nextField) return;
+                const nextUrl = new URL('gracias.html', window.location.href).href;
+                nextField.value = nextUrl;
+            });
+        </script>
+</body>
+</html>
