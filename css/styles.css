@@ -1298,3 +1298,19 @@ html, body {
     gap: 0.6rem;
   }
 }
+
+@media (max-width: 768px){
+
+  #fecha-timer{
+    position: static;
+    margin: 1rem auto;
+    display: block;
+    width: fit-content;
+  }
+
+  .navbar__menu{
+    gap: .5rem;
+    font-size: .85rem;
+  }
+
+}
